@@ -4,6 +4,7 @@ import {Routes, RouterModule} from '@angular/router';
 
 import {UserComponent} from './components/user.component';
 import {AboutComponent} from './components/about.component';
+import {UploadFileComponent} from "./components/uploadFile/uploadFile.component";
 
 
 const appRoutes: Routes = [
@@ -14,6 +15,10 @@ const appRoutes: Routes = [
     {
         path: 'about',
         component: AboutComponent
+    },
+    {
+        path: 'upload',
+        component: UploadFileComponent
     }
 ];
 
